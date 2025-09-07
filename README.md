@@ -17,3 +17,12 @@ pip install -r requirements.txt
 django-admin startproject football_news .
 ```
 Kemudian setelah itu saya melakukan konfigurasi environment variables dan proyek seperti step by step yang dijelaskan di tutorial 0 (membuat file .env dan .env.prod, modifikasi settings.py untuk menambahkan environment variables, menambahkan allowed host, menambah konfigurasi production, dan mengubah konfigurasi database).
+
+## Membuat aplikasi dengan nama main pada proyek tersebut.
+
+### 1. Membuat aplikasi baru dengan nama main
+Saya menjalankan perintah berikut di cmd
+```
+python manage.py startapp main
+```
+lalu menambahkan 'main' di INSTALLED_APPS di settings.py
