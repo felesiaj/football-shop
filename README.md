@@ -28,4 +28,13 @@ python manage.py startapp main
 lalu menambahkan 'main' di INSTALLED_APPS di settings.py
 
 ## Membuat model pada aplikasi main dengan nama Product dan menambah atributnya
-Saya menambah kelas Product di models.py dan atribut wajib sesuai yang sudah diinstruksikan di deskripsi tugas 2.
+1. Saya menambah kelas Product di models.py dan atribut wajib sesuai yang sudah diinstruksikan di deskripsi tugas 2.
+2. Saya melakukan migrasi model supaya perubahan yang saya buat di models.py tercatat dan diterapkan ke database oleh Django dengan menjalankan perintah berikut.
+```
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Membuat sebuah fungsi pada views.py untuk dikembalikan ke dalam sebuah template HTML yang menampilkan nama aplikasi serta nama dan kelas
+Saya membuat sebuah fungsi di views.py yang akan mengirim data (nama aplikasi, nama, kelas) ke template html.
+
