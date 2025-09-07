@@ -26,3 +26,6 @@ Saya menjalankan perintah berikut di cmd
 python manage.py startapp main
 ```
 lalu menambahkan 'main' di INSTALLED_APPS di settings.py
+
+## Membuat model pada aplikasi main dengan nama Product dan menambah atributnya
+Saya menambah kelas Product di models.py dan atribut wajib sesuai yang sudah diinstruksikan di deskripsi tugas 2.
