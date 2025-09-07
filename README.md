@@ -38,3 +38,6 @@ python manage.py migrate
 ## Membuat sebuah fungsi pada views.py untuk dikembalikan ke dalam sebuah template HTML yang menampilkan nama aplikasi serta nama dan kelas
 Saya membuat sebuah fungsi di views.py yang akan mengirim data (nama aplikasi, nama, kelas) ke template html.
 
+## Membuat sebuah routing pada urls.py
+1. Saya mendefinisikan routing pada urls.py pada aplikasi main untuk memetakan fungsi pada views.py
+2. Kemudian, saya menambahkan routing pada urls.py di level proyek agar ketika membuka alamat domain utama, request diarahkan ke urls.py milik aplikasi main sehingga langsung menampilkan halaman utama
