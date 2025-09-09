@@ -44,17 +44,17 @@ Saya membuat sebuah fungsi di views.py yang akan mengirim data (nama aplikasi, n
 ## Jawaban pertanyaan
 ### Alur request client ke web
 ![Diagram alur request client ke web](images/diagram.png)
-**1. Client buka browser lalu akses url**
-**2. Browser mengirimkan HTTP request ke server lewat internet**
-**3. Django menerima request lewat manage.py**
-**4. Django melakukan pengecekan url lewat urls.py**
-Jika tidak ditemukan url yang cocok, akan dikembalikan "404 Error Not Found". Jika ditemukan, request akan diarahkan ke fungsi/class di views.py
-**5. Processing lewat views.py**
-Views.py berisi kode Python yang akan dieksekusi untuk request tersebut. Jika ada kebutuhan untuk mengambil atau memproses data dari database, views.py akan memanggil models.py kemudian data yang sudah diambil akan dikembalikan ke views.py
-**6. Template (HTML)**
-View lalu merender file HTML template dengan data yang sudah diambil dari model. 
-**7. Response ke Client**
-Django membungkus hasil render dalam objek HttpResponse. Response ini dikirim balik lewat internet ke browser user. Browser akan menampilkan halaman sesuai isi HTML yang diterima.
+**1. Client buka browser lalu akses url** <br>
+**2. Browser mengirimkan HTTP request ke server lewat internet** <br>
+**3. Django menerima request lewat manage.py** <br>
+**4. Django melakukan pengecekan url lewat urls.py** <br>
+Jika tidak ditemukan url yang cocok, akan dikembalikan "404 Error Not Found". Jika ditemukan, request akan diarahkan ke fungsi/class di views.py <br>
+**5. Processing lewat views.py** <br>
+Views.py berisi kode Python yang akan dieksekusi untuk request tersebut. Jika ada kebutuhan untuk mengambil atau memproses data dari database, views.py akan memanggil models.py kemudian data yang sudah diambil akan dikembalikan ke views.py <br>
+**6. Template (HTML)** <br>
+View lalu merender file HTML template dengan data yang sudah diambil dari model. <br>
+**7. Response ke Client** <br>
+Django membungkus hasil render dalam objek HttpResponse. Response ini dikirim balik lewat internet ke browser user. Browser akan menampilkan halaman sesuai isi HTML yang diterima. <br>
 
 ### Peran settings.py dalam proyek Django
 settings.py merupakan file konfigurasi utama dalam proyek django. Dalam file settings.py kita dapat mengatur konfigurasi database (database apa yang ingin digunakan), aplikasi yang aktif (INSTALLED_APPS), menentukan domain/host mana yang boleh mengakses aplikasi (ALLOWED_HOST), dan lain-lain.
