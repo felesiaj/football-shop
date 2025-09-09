@@ -75,3 +75,6 @@ Django akan menyimpan riwayat migrasi di tabel khusus bernama django_migrations 
 
 ### Framework Django sebagai awal pembelajaran pengembangan perangkat lunak
 Menurut saya, Django dijadikan sebagai permulaan pembelajaran pengembangan perangkat lunak karena Django menggunakan bahasa pemrograman Python yang beginner-friendly. Selain itu, Django juga menggunakan arsitektur MTV (Model–Template–View), yaitu arsitektur yang memisahkan bagian data, logika, dan tampilan, sehingga membantu pemula memahami alur kerja website secara lebih terstruktur dan mudah. Dengan Django, pemula bisa langsung membuat aplikasi web lengkap dari backend sampai tampilan, sehingga lebih cepat memahami alur kerja sebuah aplikasi secara menyeluruh.
+
+### Review asdos tutorial 1
+Penjelasan yang dibuat mudah dipahami.
