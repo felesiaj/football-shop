@@ -31,7 +31,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://felesia-junelus-footballshop.pbp.cs.ui.ac.id/"
+    "https://felesia-junelus-footballshop.pbp.cs.ui.ac.id",
 ]
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "felesia-junelus-footballshop.pbp.cs.ui.ac.id"]
