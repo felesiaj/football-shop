@@ -30,6 +30,9 @@ SECRET_KEY = 'django-insecure-_8_4x*7tfa$n!_luc@ugk#h3^j+v*_nwyh&dqt3h_@anwxo*u!
 PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://felesia-junelus-footballshop.pbp.cs.ui.ac.id/"
+]
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "felesia-junelus-footballshop.pbp.cs.ui.ac.id"]
 
@@ -61,7 +64,7 @@ ROOT_URLCONF = 'football_shop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
